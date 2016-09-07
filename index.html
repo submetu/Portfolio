@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="jquery_plugins/animate.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style_common.css">
+        <link rel="stylesheet" href="css/style10.css">
         <link rel="stylesheet" href="css/style.css">
         
     </head>
@@ -23,8 +25,8 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="dropdown">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
                         <li><a href="#">Work</a></li>
+                        <li><a href="#">Photos</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -33,18 +35,46 @@
         </nav>
         <div class="home-main">
             <div class="container-fluid">
-                <h1 class="tlt">My name is Subhan Naeem and I'm a web developer/designer and an embedded systems programmer.</h1>
+                <h1 class="tlt">My name is Subhan Naeem and I'm a web developer/designer.</h1>
                 <a href="#recent-work"><img src="img/down-arrow.svg"></a>
             </div>
         </div>
-        <div class="container-fluid recent-work" id="recent-work">
+        <div class="recent-work" id="recent-work">
             <h1>Recent Work</h1>
             <div class="recent-work-row">
-                <ul>
-                    <li><img src="img/HomeIMAGE.jpg"></li>
-                    <li><img src="img/HomeIMAGE.jpg"></li>
-                    <li><img src="img/HomeIMAGE.jpg"></li>
-                </ul>
+                        <div class="view view-tenth">
+                            <img src="img/randomQuote.png">
+                            <div class="mask mask-1"></div>
+	                        <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>Random quote generator</h2>
+                                <p>JavaScript</p>
+                                <a href="#" class="info">Read More</a>
+	                        </div>
+                        </div>
+                    
+                        <div class="view view-tenth">
+                        <img src="img/Pagination.png">
+                        <div class="mask mask-1"></div>
+	                        <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>Pagination and dynamic search</h2>
+                                <p>JavaScript,Jquery</p>
+                                <a href="#" class="info">Read More</a>
+	                        </div>
+                        </div>
+                    
+                        <div class="view view-tenth">
+                        <img src="img/Fitness-not-a-joke.png">
+                        <div class="mask mask-1"></div>
+	                        <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>Fitness-not a joke</h2>
+                                <p>JavaScript,Jquery</p>
+                                <a href="#" class="info">Read More</a>
+	                        </div>
+                        </div>
+                    
             </div>
             <div>
                 <a id="view-more" href="#">
@@ -62,8 +92,18 @@
     </body>
     
     <footer>
-        <div class="container-fluid">
-            	<h3>&copy; Subhan Naeem. All rights reserved</h3>
+        <div class="container">
+            <div class="social-media-icons">
+                <ul>
+                    <li><a target="_blank" title="Find me on Facebook" href="https://www.facebook.com/subhan.naeem.9"><img alt="Follow me on Facebook" src="img/Facebook_logo_vector-4.png" border=0></a> </li>
+                    <li><a target="_blank" title="Find me on Instagram" href="https://www.instagram.com/n_subhan/"><img alt="follow me on facebook" src="img/Instagram_simple_icon.svg.png" border=0></a> </li>
+                    <li><a target="_blank" title="Find me on Linkedin" href="https://www.linkedin.com/in/subhan-naeem-a52b3991"><img alt="follow me on facebook" src="img/linkedin-4096-black.png" border=0></a> </li>
+                    <li><a target="_blank" title="Find me on Github" href="https://github.com/submetu/"><img alt="follow me on facebook" src="img/Octicons-mark-github.svg.png" border=0></a> </li>
+                </ul>
+            </div>
+            <div class="container">
+                <h3>&copy; Subhan Naeem. All rights reserved</h3>
+            </div>
         </div>
     </footer>
 </html>

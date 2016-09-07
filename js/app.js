@@ -17,7 +17,7 @@ $(function () {
     $('.tlt').textillate(
         { in: { effect: 'fadeInDownBig',
                 sync: false,
-                delay: 3
+                delay: 8
               },
         }
     );
