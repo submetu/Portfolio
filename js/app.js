@@ -1,13 +1,13 @@
-var $root = $('html, body');
+
 
 $('.home-main a').hide();
-$('.home-main a').fadeIn(4000);
+$('.home-main a').fadeIn(2000);
 
 //SCROLL ANIMATION
 $('.home-main a').click(function() {
-    $root.animate({
+    $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1000);
+    }, 2000);
     return false;
 });
 
