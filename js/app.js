@@ -1,4 +1,7 @@
 var $root= $('html, body');
+var $introduction=$('<h1 class="tlt">My name is Subhan Naeem and I\'m a web developer/designer.</h1>');
+$('div.home-main div.container-fluid').prepend($introduction);
+
 
 $('.home-main a').hide();
 $('.home-main a').fadeIn(2000);
@@ -22,8 +25,14 @@ $(function () {
     $('.tlt').textillate(
         { in: { effect: 'fadeInDownBig',
                 sync: false,
-                delay: 8
+                delay: 12
               },
         }
     );
 })
+
+
+
+
+
+

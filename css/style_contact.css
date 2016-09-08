@@ -1,0 +1,39 @@
+.contact-main{
+    height:350px;
+    width:100%;
+    background: 
+                linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url("../img/contact-img.jpg ") no-repeat center/cover;
+                text-align: center;
+}
+.contact-contact{
+    text-align: center;
+    margin: 5% 5% 0;
+}
+.contact-contact h5{
+    margin-bottom:7%;
+}
+.contact-contact h4{
+    margin-bottom: 7%;
+}
+.contact-contact h4 a{
+    transition-duration: .5s;
+}
+.contact-contact h4 a:hover{
+    color:dodgerblue;
+}
+.contact-contact h4 a:visited{
+    color:inherit;
+}
+.social-media-icons{
+    text-align: center;
+    margin: 2% 0 5%;
+}
+
+/*DRY RULES*/
+.addDec{
+    text-decoration:underline;
+}
+.inheritColor{
+    color:inherit;
+}
