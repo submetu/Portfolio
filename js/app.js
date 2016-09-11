@@ -1,7 +1,16 @@
 var $root= $('html, body');
 var $introduction=$('<h1 class="tlt">My name is Subhan Naeem and I\'m a web developer/designer.</h1>');
 $('div.home-main div.container-fluid').prepend($introduction);
-
+//TEXTILATION
+$(function () {
+    $('.tlt').textillate(
+        { in: { effect: 'fadeInDownBig',
+                sync: false,
+                delay: 12
+              },
+        }
+    );
+})
 
 $('.home-main a').hide();
 $('.home-main a').fadeIn(2000);
@@ -20,16 +29,7 @@ $('.recent-work .get-in-touch a').click(function() {
     return false;
 });
 
-//TEXTILATION
-$(function () {
-    $('.tlt').textillate(
-        { in: { effect: 'fadeInDownBig',
-                sync: false,
-                delay: 12
-              },
-        }
-    );
-})
+
 
 
 

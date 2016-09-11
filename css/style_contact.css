@@ -1,3 +1,28 @@
+
+html,body{
+        margin:0;
+        padding:0;
+        height:100%;
+    }
+    #main-content{
+        min-height:100%;
+        position:relative;
+    }
+    #body {
+       padding-bottom:60px;   /* Height of the footer */
+    }
+    #footer{
+      position:absolute;
+       bottom:0;
+       width:100%;
+       height:60px;   /* Height of the footer */
+    }
+.contact-contact{
+        margin-top: 10%;
+    }
+.body{
+    font-size: 1em;
+}
 .contact-main{
     height:350px;
     width:100%;
@@ -8,23 +33,22 @@
 }
 .contact-contact{
     text-align: center;
-    margin: 5% 5% 0;
 }
 .contact-contact h5{
     margin-bottom:7%;
-}
-.contact-contact h4{
-    margin-bottom: 7%;
 }
 .contact-contact h4 a{
     transition-duration: .5s;
 }
 .contact-contact h4 a:hover{
-    color:dodgerblue;
+    color:#088A4B;
 }
 .contact-contact h4 a:visited{
-    color:inherit;
+    color:black;
 }
+.contact-contact h3{
+        padding:0 5% 0;
+    }
 .social-media-icons{
     text-align: center;
     margin: 2% 0 5%;
@@ -36,4 +60,61 @@
 }
 .inheritColor{
     color:inherit;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width:200px) and (max-width:320px){
+     
+    .contact-main{
+        height:150px;
+    }
+    .contact-contact h1{
+        font-size: 1.5em;
+    }
+    .contact-contact h5{
+        font-size: 0.8em;
+    }
+    .contact-contact h4{
+        font-size: 1.1em;
+    }
+    .contact-contact h3{
+        padding:0 5% 0;
+        margin-top:10%;
+        font-size: 0.8em;
+    }
+    .footer{
+        margin:auto;
+    }
+    .navbar .navbar-brand{
+        font-size:.6em;
+    }
+   
+}
+@media screen and (min-width:321px) and (max-width:480px){
+    
+    .contact-main{
+        height:150px;
+        width: 100%:
+    }
+    .contact-contact{
+        margin-top: 20%;
+    }
+    .contact-contact h1{
+        font-size: 1.5em;
+    }
+    .contact-contact h5{
+        font-size: .8em;
+    }
+    .contact-contact h4{
+        font-size: 1.1em;
+    }
+    .contact-contact h3{
+        margin-top:10%;
+        font-size: .8em;
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    
+    
 }

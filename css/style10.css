@@ -99,6 +99,7 @@
    opacity: 1;
 }
 .view-tenth:hover a.info:hover{
+    color:#01DF74;
     border-radius:10px;
     transition-duration:.3s;
 }

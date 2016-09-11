@@ -68,7 +68,9 @@ body{
 .recent-work-row{
     margin-top:5%   ;
 }
-
+.recent-work p{
+    text-decoration: underline;
+}
 
 .recent-work #view-more{
     margin-top: 1%;
@@ -86,6 +88,7 @@ body{
     opacity: 1;
 }
 .recent-work #view-more:hover{
+    color:#088A4B;
     box-shadow:none;
     border:1px solid black;
     border-radius: 10px;
@@ -103,9 +106,9 @@ body{
     transform: scale(1.1);
     transition-duration: .1s;
 }
+
 .recent-work .get-in-touch a img{
     width:50px;
-    
 }
 .work-with-me{
     width:100%;
@@ -223,6 +226,13 @@ social-media-icons>ul>li:nth-child(3){
     #view-more span{
         font-size:0.7em;
     }
+    .recent-work .get-in-touch p{
+        margin-top:10%;
+        font-size:0.7em;
+    }
+    .recent-work .get-in-touch a img{
+        width:25px;
+    }
     .work-with-me h1{
         font-size: 1.5em;
     }
@@ -289,6 +299,13 @@ social-media-icons>ul>li:nth-child(3){
     }
     #view-more span{
         font-size:0.7em;
+    }
+    .recent-work .get-in-touch p{
+        margin-top:10%;
+        font-size:0.7em;
+    }
+    .recent-work .get-in-touch a img{
+        width:25px;
     }
     .work-with-me h1{
         font-size: 1.5em;
