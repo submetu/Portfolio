@@ -1,5 +1,5 @@
 var $root= $('html, body');
-var $introduction=$('<h1 class="tlt">My name is Subhan Naeem and I\'m a web developer/designer.</h1>');
+var $introduction=$('<h1 class="tlt">My name is Subhan Naeem and I\'m a web developer</h1>');
 $('div.home-main div.container-fluid').prepend($introduction);
 //TEXTILATION
 $(function () {
