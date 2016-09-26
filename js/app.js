@@ -28,6 +28,12 @@ $('.recent-work .get-in-touch a').click(function() {
     }, 2000);
     return false;
 });
+$('#view-more').click(function(){
+    window.open ('work.html','_self',false)
+});
+
+
+
 
 
 

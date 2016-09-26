@@ -63,6 +63,10 @@ body{
 .recent-work{
     text-align: center;
     padding:10% 0;
+    color: #666666;
+}
+.recent-work h1{
+    font-weight: bold;
 }
 
 .recent-work-row{
@@ -75,7 +79,7 @@ body{
 .recent-work #view-more{
     margin-top: 1%;
     text-decoration: none;
-    color:initial;
+    color: #666666;
     display: inline-block;
     border: 1px solid black;
     padding: 10px 10px 10px 15px;
@@ -117,10 +121,14 @@ body{
     display: block;
     padding: 5%;
     background: #4ABDAC;
+
 }
 .work-with-me h5 a{
     text-decoration: none;
-    color:initial;
+    color: #666666;
+}
+.get-in-touch p{
+    color: #666666;
 }
 
 .work-with-me a img{

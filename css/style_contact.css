@@ -3,6 +3,7 @@ html,body{
         margin:0;
         padding:0;
         height:100%;
+
     }
     #main-content{
         min-height:100%;
@@ -10,6 +11,7 @@ html,body{
     }
     #body {
        padding-bottom:60px;   /* Height of the footer */
+       color: #666666;
     }
     #footer{
       position:absolute;
@@ -20,6 +22,13 @@ html,body{
 .contact-contact{
         margin-top: 10%;
     }
+.contact-contact h1{
+    font-weight: bold;
+}
+.contact-contact h4{
+    font-weight: bold;
+    margin-bottom:5%;
+}
 .body{
     font-size: 1em;
 }
@@ -35,9 +44,10 @@ html,body{
     text-align: center;
 }
 .contact-contact h5{
-    margin-bottom:7%;
+    margin-bottom:4%;
 }
 .contact-contact h4 a{
+    color:black;
     transition-duration: .5s;
 }
 .contact-contact h4 a:hover{
@@ -48,6 +58,7 @@ html,body{
 }
 .contact-contact h3{
         padding:0 5% 0;
+        font-size:1.3em;
     }
 .social-media-icons{
     text-align: center;
