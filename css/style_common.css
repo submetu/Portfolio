@@ -8,8 +8,8 @@
    text-align: center;
    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 0 0 2px black;
    cursor: default;
+   box-shadow: 0 0 7px rgba(0,0,0,0.3), 0 7px rgba(0,0,0,0.5);
 }
 .view .mask,.view .content {
    width: 275px;

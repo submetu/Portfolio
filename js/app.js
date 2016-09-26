@@ -40,5 +40,3 @@ $('#view-more').click(function(){
 
 
 
-
-
