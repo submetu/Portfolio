@@ -32,16 +32,5 @@ $('#view-more').click(function(){
     window.open ('work.html','_self',false)
 });
 
-$("#treehouse-search").hide();
 
-// $('#myId').mouseenter(function(){
-//     $("#treehouse-search").show();    
-// }).mouseleave(function(){
-//     $("#treehouse-search").hide();
-// });
-// $('#myId').mouseenter(function(){
-//     $("#movie-search").show();    
-// }).mouseleave(function(){
-//     $("#movie-search").hide();
-// });
 
