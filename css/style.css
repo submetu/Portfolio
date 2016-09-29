@@ -4,7 +4,6 @@
     box-shadow: none;
     padding-top: 17px;
     font-size:1.3em;
-   
 }
 .navbar-brand{
     padding-right:50px;
@@ -12,6 +11,9 @@
     color: black;
 }
 /*NAVBAR*/
+.active{
+    color:black;
+}
 ul.nav li:nth-last-of-type(n+1){
     margin-left: 15px;
 }
