@@ -11,8 +11,6 @@
     color: black;
 }
 /*NAVBAR*/
-.active{
-    color:black;
 }
 ul.nav li:nth-last-of-type(n+1){
     margin-left: 15px;
