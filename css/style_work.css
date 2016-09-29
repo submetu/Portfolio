@@ -28,6 +28,7 @@ nav.navbar-default{
 .work-main{
 	color: #666666;
 	text-align: center;
+    margin-bottom:5%;
 }
 .work-main h1{
 	text-align: center;
@@ -37,10 +38,6 @@ nav.navbar-default{
 
 .work-main li{
 	display:inline;
-
-}
-ul{
-  margin-bottom: 7%;
 }
 
 .work-main li img{
