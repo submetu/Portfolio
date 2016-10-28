@@ -11,95 +11,96 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <div class="main-content">
-    <body>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="index.html"><img src="img/onlinelogomaker-090616-1909-7898.png" class="navbar-brand"></a>
-                    <a href="index.html" class="navbar-brand">Subhan Naeem</a>
-                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
-                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse navbar-right" id="dropdown">
-                    <ul class="nav navbar-nav">
-                        <li><a href="work.html">Work</a></li>
-                        <li><a href="#">Photos</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="home-main">
-            <div class="container-fluid">
-                <!--INTRODUCTION ADDED BY JQUERY HERE-->
-                <a href="#recent-work"><img src="img/down-arrow.svg"></a>
-            </div>
-        </div>
-        <div class="recent-work" id="recent-work">
-            <h1>Recent Work</h1>
-            <div class="recent-work-row">
-                <div class="view view-tenth">
-                    <img src="img/treehouse_search.png">
-                    <div class="mask mask-1"></div>
-                    <div class="mask mask-2"></div>
-                    <div class="content">
-                        <h2>Treehouse User Search</h2>
-                        <p>Node.Js</p>
-                        <a href="treehouse_search.html" class="info">Read More</a>
+        <div id="body">
+            <body>
+                <!-- <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a href="index.html"><img src="img/onlinelogomaker-090616-1909-7898.png" class="navbar-brand"></a>
+                            <a href="index.html" class="navbar-brand">Subhan Naeem</a>
+                            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
+                                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-right" id="dropdown">
+                            <ul class="nav navbar-nav">
+                                <li><a href="work.html">Work</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav> -->
+                <div class="home-main">
+                    <div class="container-fluid">
+                        <!--INTRODUCTION ADDED BY JQUERY HERE-->
+                        <a href="#recent-work"><img src="img/down-arrow.svg"></a>
                     </div>
                 </div>
-                    
-                <div class="view view-tenth">
-                <img src="img/movie_search.png">
-                <div class="mask mask-1"></div>
-                    <div class="mask mask-2"></div>
-                    <div class="content">
-                        <h2>IMDb Movie Search</h2>
-                        <p>JavaScript jQuery AJAX</p>
-                        <a href="#" class="info">Read More</a>
+                <div class="recent-work" id="recent-work">
+                    <h1>Recent Work</h1>
+                    <div class="recent-work-row">
+                        <div class="view view-tenth">
+                            <img src="img/treehouse_search.png">
+                            <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>Treehouse User Search</h2>
+                                <p>Node.Js</p>
+                                <a href="treehouse_search.html" class="info">Read More</a>
+                            </div>
+                        </div>
+                            
+                        <div class="view view-tenth">
+                        <img src="img/movie_search.png">
+                        <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>IMDb Movie Search</h2>
+                                <p>JavaScript jQuery AJAX</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                            
+                        <div class="view view-tenth">
+                        <img src="img/tic-tac-toe.png">
+                        <div class="mask mask-1"></div>
+                            <div class="mask mask-2"></div>
+                            <div class="content">
+                                <h2>Tic-Tac-Toe</h2>
+                                <p>JavaScript jQuery</p>
+                                <a href="#" class="info">Read More</a>
+                            </div>
+                        </div>
+                            
+                    </div>
+                    <div>
+                        <a id="view-more" href="#">
+                            <span>View more</span>
+                            <img src="img/skip.svg">
+                        </a>
+                    </div>
+                    <div class="get-in-touch" >
+                        <a href="#work-with-me">
+                            <p>Get in touch</p>
+                            <img src="img/down-arrow_black.svg">
+                        </a>
                     </div>
                 </div>
-                    
-                <div class="view view-tenth">
-                <img src="img/tic-tac-toe.png">
-                <div class="mask mask-1"></div>
-                    <div class="mask mask-2"></div>
-                    <div class="content">
-                        <h2>Tic-Tac-Toe</h2>
-                        <p>JavaScript jQuery</p>
-                        <a href="#" class="info">Read More</a>
-                    </div>
+                <div class="work-with-me" id="work-with-me">
+                    <h1>Give working with me a try</h1>
+                    <h5><a href="mailto:subhan@example.com">subhan@example.com</a></h5>
+                    <a href="mailto:subhan@example.com"><img src="img/clipart-email-icon-white-on-black-9YBPv3-clipart.png"></a>
                 </div>
-                    
-            </div>
-            <div>
-                <a id="view-more" href="#">
-                    <span>View more</span>
-                    <img src="img/skip.svg">
-                </a>
-            </div>
-            <div class="get-in-touch" >
-                <a href="#work-with-me">
-                    <p>Get in touch</p>
-                    <img src="img/down-arrow_black.svg">
-                </a>
-            </div>
+                
+                <script src="js/jquery-3.1.0.min.js"></script>
+                <script src="jquery_plugins/jquery.lettering.js"></script>
+                <script src="jquery_plugins/jquery.textillate.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/app.js"></script>
+            </body>
         </div>
-        <div class="work-with-me" id="work-with-me">
-            <h1>Give working with me a try</h1>
-            <h5><a href="mailto:subhan@example.com">subhan@example.com</a></h5>
-            <a href="mailto:subhan@example.com"><img src="img/clipart-email-icon-white-on-black-9YBPv3-clipart.png"></a>
-        </div>
-        
-        <script src="js/jquery-3.1.0.min.js"></script>
-        <script src="jquery_plugins/jquery.lettering.js"></script>
-        <script src="jquery_plugins/jquery.textillate.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/app.js"></script>
-    </body>
-    
     <footer>
         <div class="container">
             <div class="social-media-icons">
